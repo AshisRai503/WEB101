@@ -1,4 +1,4 @@
-## Documentation - Concepts Applied
+## Concepts Applied
 
 ### 1. Next.js App Router
 - **File-based routing**: Created pages by organizing files in the `app` directory (profile/page.jsx, upload/page.jsx, etc.)
@@ -25,7 +25,7 @@
 - Used Font Awesome icons via react-icons package
 - Implemented interactive icon buttons for user actions
 
-## b Reflection - What I Learned
+### What I Learned
 
 ### Key Learning Outcomes
 
@@ -44,8 +44,5 @@
    - Passing data via props makes components flexible
    - Dummy data arrays help test UI before API integration
 
-### Challenges Faced and Solutions
-
-
 ### Conclusion
-This practical provided hands-on experience with modern React and Next.js development. Building a TikTok-like interface helped understand real-world application structure, from component architecture to form validation. The challenges encountered, particularly with JSX syntax and validation logic, reinforced the importance of attention to detail and systematic debugging.
+This practical gave me first hand knowledge of contemporary Next.js and React development. Creating an interface similar to TikTok made it easier to comprehend the structure of real world applications, from form validation to component architecture. The difficulties encountered emphasized the value of meticulous attention to detail and methodical debugging, especially with regard to JSX syntax and validation logic.

@@ -44,37 +44,37 @@ export default function VideoCard({ post }) {
             </div>
           </div>
 
-          {/* Interaction buttons */}
-          <div className="flex flex-col justify-end space-y-3 py-2">
+          {/* INTERACTION BUTTONS - NOW MORE VISIBLE */}
+          <div className="flex flex-col justify-end space-y-4 py-2">
             {/* Like button */}
             <button 
-              className="flex flex-col items-center"
+              className="flex flex-col items-center group"
               onClick={handleLikeClick}
             >
-              <div className="h-10 w-10 rounded-full bg-gray-200 flex items-center justify-center">
+              <div className="h-12 w-12 rounded-full bg-gray-100 flex items-center justify-center group-hover:bg-gray-200 transition border border-gray-300">
                 {liked ? (
-                  <FaHeart className="text-red-500" />
+                  <FaHeart className="text-red-500 text-xl" />
                 ) : (
-                  <FaRegHeart />
+                  <FaRegHeart className="text-gray-700 text-xl" />
                 )}
               </div>
-              <span className="text-xs mt-1">{liked ? likes + 1 : likes}</span>
+              <span className="text-xs mt-1 font-medium">{liked ? likes + 1 : likes}</span>
             </button>
 
             {/* Comment button */}
-            <button className="flex flex-col items-center">
-              <div className="h-10 w-10 rounded-full bg-gray-200 flex items-center justify-center">
-                <FaComment />
+            <button className="flex flex-col items-center group">
+              <div className="h-12 w-12 rounded-full bg-gray-100 flex items-center justify-center group-hover:bg-gray-200 transition border border-gray-300">
+                <FaComment className="text-gray-700 text-xl" />
               </div>
-              <span className="text-xs mt-1">{comments}</span>
+              <span className="text-xs mt-1 font-medium">{comments}</span>
             </button>
 
             {/* Share button */}
-            <button className="flex flex-col items-center">
-              <div className="h-10 w-10 rounded-full bg-gray-200 flex items-center justify-center">
-                <FaShare />
+            <button className="flex flex-col items-center group">
+              <div className="h-12 w-12 rounded-full bg-gray-100 flex items-center justify-center group-hover:bg-gray-200 transition border border-gray-300">
+                <FaShare className="text-gray-700 text-xl" />
               </div>
-              <span className="text-xs mt-1">{shares}</span>
+              <span className="text-xs mt-1 font-medium">{shares}</span>
             </button>
           </div>
         </div>
