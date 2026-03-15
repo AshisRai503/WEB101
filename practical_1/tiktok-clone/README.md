@@ -18,15 +18,10 @@ Open your terminal and navigate to your Github repost
 Configuration options:
 
     TypeScript: No
-
     ESLint: Yes
-
     Tailwind CSS: Yes
-
     src/ directory: Yes
-
     App Router: Yes
-
     Custom import alias: No
 
 ### Step 3: Clean Up the Default Project
@@ -69,10 +64,10 @@ Visit http://localhost:3000
 ## Part 2 - Creating the Web Layout and Main Interface
 
 Objectives:
-Sidebar navigation
-Main content area
-Basic video feed layout
-Placeholder video components
+    Sidebar navigation
+    Main content area
+    Basic video feed layout
+    Placeholder video components
 
 ### Step 1: Install Additional Dependencies
 
@@ -123,11 +118,8 @@ Ensure all pages and navigation work as intended.
 Objectives:
 
     Login and signup pages
-
     Form validation
-
     Navigation links
-
     Understand form concepts
 
     Key Concepts
@@ -135,41 +127,31 @@ Objectives:
     React Hook Form
 
         register: Register inputs in the form
-
         handleSubmit: Handle form submission
-
         watch: Observe form values
-
         errors: Contains validation errors
 
-    Form Validation
+    Form Validation:
 
         required: Make fields mandatory
-
         pattern: Validate against regex
-
         minLength: Ensure minimum length
-
         validate: Custom validation functions
 
-    Form Submission
+    Form Submission:
 
         Handle loading states
-
         Send data to API
-
         Display success/error messages
 
-    Loading States
+    Loading States:
 
         Prevent multiple submissions
-
         Provide visual feedback
 
-    Form Error Handling
+    Form Error Handling:
 
         Display validation messages under inputs
-
         Show field-specific errors
 
 ### Step 1: Install React Hook Form
