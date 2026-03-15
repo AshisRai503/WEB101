@@ -48,11 +48,15 @@
 
 1. **Sidebar not appearing**
     - Issue: Sidebar not appearing properly after updating Mainlayout component
+      ![Alt text](https://github.com/AshisRai503/WEB101/blob/main/practical_1/tiktok-clone/Images/err2.png?raw=true)
     - Solution:I had forgotten to wrap the children in the MainLayout component. In my src/app/layout.js, I had
+      ![Alt text](https://github.com/AshisRai503/WEB101/blob/main/practical_1/tiktok-clone/Images/sol2.png?raw=true)
 
 2. **Syntax Error**
     - Issue: When implementing sidebar navigation, I encountered multiple JSX syntax errors due to incorrect clossing tags and improper nesting.
+      ![Alt text](https://github.com/AshisRai503/WEB101/blob/main/practical_1/tiktok-clone/Images/err1.png?raw=true)
     - Solution:I realized that JSX components must return a single parent element wrapped in parentheses, not curly braces.
+      ![Alt text]()
 
 3. **Like Button Count**
     - The like count wasn't updating properly when toggling the like button.
