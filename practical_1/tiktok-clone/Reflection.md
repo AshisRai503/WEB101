@@ -56,7 +56,7 @@
     - Issue: When implementing sidebar navigation, I encountered multiple JSX syntax errors due to incorrect clossing tags and improper nesting.
       ![Alt text](https://github.com/AshisRai503/WEB101/blob/main/practical_1/tiktok-clone/Images/err1.png?raw=true)
     - Solution:I realized that JSX components must return a single parent element wrapped in parentheses, not curly braces.
-      ![Alt text]()
+      ![Alt text](https://github.com/AshisRai503/WEB101/blob/main/practical_1/tiktok-clone/Images/Screenshot%202026-03-15%20234941.png?raw=true)
 
 3. **Like Button Count**
     - The like count wasn't updating properly when toggling the like button.
