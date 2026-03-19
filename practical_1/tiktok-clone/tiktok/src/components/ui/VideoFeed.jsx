@@ -32,6 +32,7 @@ const DUMMY_POSTS = [
   }
 ];
 
+
 export default function VideoFeed() {
   return (
     <div className="max-w-[550px] mx-auto">
